@@ -24,12 +24,12 @@ class Product
 
     public function getId(): ?int
     {
-        return $id;
+        return $this->id;
     }
 
     public function getName(): ?string
     {
-        return $name;
+        return $this->name;
     }
 
     public function setName(string $name): self
@@ -41,7 +41,7 @@ class Product
 
     public function getPrice(): ?float
     {
-        return $price;
+        return $this->price;
     }
 
     public function setPrice(float $price): self
@@ -53,7 +53,7 @@ class Product
 
     public function getDescription(): ?string
     {
-        return $description;
+        return $this->description;
     }
 
     public function setDescription(?string $description): self
